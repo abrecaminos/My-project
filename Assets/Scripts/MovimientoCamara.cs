@@ -20,6 +20,6 @@ public class MovimientoCamara : MonoBehaviour
 //Metodo de Unity que no está tan en vidriera como "Update" que permite que primero se mueva el player y DESPUES posicionar la camara y de esa manera evitar los glitch cuadra a cuadro, se ve mas fluido
      private void LateUpdate()
     {
-        transform.position = target.transform.position
+        transform.position = target.transform.position;
     }
 }
