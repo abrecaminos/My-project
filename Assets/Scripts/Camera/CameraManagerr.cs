@@ -15,6 +15,10 @@ public class CameraManagerr : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        SwitchCamera();
+    }
+
+    private void SwitchCamera() {
         if (Input.GetKeyDown(KeyCode.F1)) {
             cameras[0].SetActive(true);
             cameras[1].SetActive(false);
@@ -32,5 +36,6 @@ public class CameraManagerr : MonoBehaviour
             cameras[1].SetActive(false);
             cameras[2].SetActive(true);
         }
+
     }
 }

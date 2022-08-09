@@ -301,7 +301,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.1420233, y: 1}
+    m_SensorSize: {x: 2.1626794, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -317,15 +317,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 422313112}
-  m_LocalRotation: {x: -0.1261318, y: 0.4404959, z: -0.062663004, w: -0.8866383}
-  m_LocalPosition: {x: 6.6868587, y: 9.845891, z: -35.03}
+  m_LocalRotation: {x: -0.1461582, y: 0.49978885, z: -0.026463792, w: -0.8533162}
+  m_LocalPosition: {x: -2.7968006, y: 8.999578, z: -40.956875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1492283674}
   m_Father: {fileID: 0}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 16.015, y: -61.564, z: -6.028}
 --- !u!1 &438604030 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8538234563528447840, guid: ca95dbeeb8ebfb74992386d0e5dba0e1, type: 3}
@@ -813,7 +813,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.2145, y: -0.88229084, z: -24.51911}
+  m_LocalPosition: {x: -18.698158, y: -1.7286034, z: -30.445986}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1441,17 +1441,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad980451443d70438faac0bc6c235a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrackedObjectOffset: {x: 9.311581, y: 8.62327, z: 0}
+  m_TrackedObjectOffset: {x: -3.76437, y: 6.28, z: 18.79}
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 0
   m_LookaheadIgnoreY: 0
-  m_XDamping: 1
+  m_XDamping: 1.6
   m_YDamping: 1
   m_ZDamping: 1
   m_TargetMovementOnly: 1
-  m_ScreenX: 0.567
-  m_ScreenY: 0.516
-  m_CameraDistance: 17.090004
+  m_ScreenX: 0.49
+  m_ScreenY: 0.54
+  m_CameraDistance: 41.80688
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0
   m_DeadZoneDepth: 0
